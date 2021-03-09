@@ -134,13 +134,6 @@ int init()
   ImGui::StyleColorsDark();
   //ImGui::StyleColorsClassic();
 
-  // Load Fonts
-  //io.Fonts->AddFontFromFileTTF("data/xkcd-script.ttf", 23.0f);
-  //io.Fonts->AddFontFromFileTTF("data/xkcd-script.ttf", 18.0f);
-  //io.Fonts->AddFontFromFileTTF("data/xkcd-script.ttf", 26.0f);
-  //io.Fonts->AddFontFromFileTTF("data/xkcd-script.ttf", 32.0f);
-  io.Fonts->AddFontDefault();
-
   imgui =  ImGui::GetCurrentContext();
 
   // Cursor callbacks
